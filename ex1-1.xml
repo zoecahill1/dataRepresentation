@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+<Library>
+	<Book category="Technical">
+		<Title>Python for Data Analysis</Title>
+		<Author>Wes McKinney</Author>
+		<ISBN>1491957662</ISBN>
+	</Book>
+	<Book category="Technical">
+		<Title>Algorithims in a Nutshell</Title>
+		<Author>George T. Heineman</Author>
+		<ISBN>1491948922</ISBN>
+	</Book>
+	<Book category="Cookery">
+		<Title>Mary Berry's Baking Bible</Title>
+		<Author>Mary Berry</Author>
+		<ISBN>9781846077852</ISBN>
+	</Book>
+	<Book category="Cookery">
+		<Title>Cook House</Title>
+		<Author>Anna Hedworth</Author>
+		<ISBN>1788547217</ISBN>
+	</Book>
+</Library>
