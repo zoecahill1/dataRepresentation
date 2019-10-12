@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Exercise 2.9</title> 
+    </head>
+    
+	<body>
+        <table>
+            <tr>
+                <td>Name</td>
+                <td>Age</td>
+				<td>Job</td>
+                <td><button onclick="doRow(this)">Console Output</button></td>
+            </tr>
+        </table>
+    </body>
+    
+	<script>
+        function doRow(buttonElement){
+            var rowElement = buttonElement.parentNode.parentNode
+            var data={}
+            data.cell1 = rowElement.cells[0].firstChild.textContent;
+            data.cell2 = rowElement.cells[1].firstChild.textContent;
+			data.cell3 = rowElement.cells[2].firstChild.textContent;
+            console.log(JSON.stringify(data))
+            
+        }
+    
+    </script>
+</html>

@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Exercise 2.6</title>
+    </head>
+    
+	<body>
+        <input type="number" placeholder="Enter the number 10" onchange="checkNumber(this)"/>
+        <br/>
+        <div id="output">
+            I'll tell you if you entered 10 or not 
+        </div>
+        
+		<script>
+            function checkNumber(inputElement){
+                var value = inputElement.value
+                if( value <10){
+                    document.getElementById("output").innerText = "Number is too low"
+                }else if (value > 10){
+                    document.getElementById("output").innerText = "Number is too high"
+                }else{
+                    document.getElementById("output").innerText = "That's right!"
+                }
+            }
+			
+        </script>
+    </body>
+</html>

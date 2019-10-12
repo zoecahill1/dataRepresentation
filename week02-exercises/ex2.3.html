@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Exercise 2.3</title>
+    </head>
+	
+    <body>
+        <input id = "name" type = "text" placeholder = "Enter your name..."/>
+        <br/>
+		
+        <button onclick = "button()">ENTER</button><br/>
+        <div id = "guess">I will guess your name is...</div>
+        
+        <script>
+            function button(){
+                var guess = document.getElementById('name').value
+				var message = "Your name is " + guess
+                document.getElementById('guess').innerText = message
+            }
+            
+        </script>
+    </body>
+</html>

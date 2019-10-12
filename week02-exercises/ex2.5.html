@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Exercise 2.5</title> 
+    </head>
+    
+	<body>
+        <div id="div1" style= "background-color: blue"> 
+             This is Div 1
+        </div>
+        <div id="div2" style= "background-color: red; display: none">
+            This is Div 2
+        </div>
+		<button onclick="showDiv1()">Show Div 1</button>
+		<button onclick= "showDiv2()">Show Div 2</button>
+        
+		<script>
+            function showDiv2(){
+                document.getElementById("div1").style.display = "none";
+                document.getElementById("div2").style.display = "block";
+            }
+            function showDiv1(){
+                document.getElementById("div1").style.display = "block";
+                document.getElementById("div2").style.display = "none";
+            }
+        </script>
+                            
+    </body>
+</html>
