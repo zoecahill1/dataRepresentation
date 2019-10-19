@@ -1,0 +1,20 @@
+<html>
+
+	<head>
+		<title>Lab02</title>
+	</head>
+	
+	<body>
+	
+	<input type="button" value="Show First Name in Console" onclick="displayJSON()">
+	</body>
+	<script>
+	function displayJSON(){
+		var obj = JSON.parse('{"employees": [{"firstName": "John", "lastName": "Doe"}, {"firstName": "Anna", "lastName": "Smith"}, {"firstName": "Peter", "lastName": "Jones"}]}')
+
+		for (employee of obj.employees){
+			console.log(employee.firstName)
+		}
+	}
+	</script>
+</html>
