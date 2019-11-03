@@ -19,3 +19,4 @@ This file contains my solutions for the Data Representation Module in GMIT 2019
 5. week03-webScraping - contains week 3's lab on web scraping using the package Beautiful Soup
 6. week04-JSON-AJAX - contains week 4's lab on the use of JSON and AJAX getting infomation from various websites JSON objects. Also contains code from the extra materials given on week 4
 7. week05-CURL-Flask-AJAX - contains week 5's lab on CURL commands, Flask server and AJAX calls to REST
+8. week06-Python-and-API - contains week 6'e lab on using python to access a server,
